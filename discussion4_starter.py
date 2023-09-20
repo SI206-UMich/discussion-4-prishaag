@@ -63,6 +63,12 @@ class Rectangle():
     # Otherwise, it returns the perimeter of the rectangle.
 
     # YOUR CODE HERE
+    def perimeter(self):
+        if verify_input(self) == False:
+            return "Invalid input"
+        else:
+            return self.width + self.height + self.width + self.height
+
     
 
     
